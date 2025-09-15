@@ -3,9 +3,91 @@
 <head>
     <title>Rode to code cards</title>
 </head>
+<style>
+     body{
+            background-color: #f5f7fb;
+        }
+
+        .card{
+            border-radius: 10px;
+            background-color: #ffffff;
+            height: 590px;
+            width: 400px;
+            margin-top: 20px;
+            margin-left: 40px;
+            display: inline-block;
+            box-shadow: 0 0 2px gray ;
+
+        }
+        .img{
+            height: 225px;
+            width: 400px;
+            object-fit: justify;
+            border-radius: 10px 10px 0 0;
+        }
+        .card-title{
+            color: #4b5563;
+            font-size: 20px;
+            margin: 5px 5px;
+            text-align: center;
+        }
+
+        .card-description{
+            color: #4a4751;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+         .imgs{
+            height: 20px;
+            margin : 0 10px;
+        }
+        .start-timing{
+            display: flex;
+        }
+        .teacher-img{
+            border-radius: 50%;
+            height: 30px;
+            margin-left: 10px;
+        }
+        .price{
+            color: #3b82f6;
+            text-align: center;
+            margin: 0;
+        }
+        .btn{
+            background-color: #000000;
+            color: #ffffff;
+            border-radius: 20px 20px;
+            border: 0;
+            padding: 10px;
+           margin-left: 40%;
+        }
+</style>
 <body>
-    <div class="card">
-        <img src="img1.webp"
+   <div class="card">
+       <div>  
+          <img class="img" src="https://cdn.roadtocode.org/course-headers/icp.jpg"/> 
+       </div>
+      <div> <h4 class="card-title">Internship Cohort Program 9.0</h4>
+        <p class="card-description">Learn Fullstack Development and Become Internship Ready in Just 6 Months 🚀</p>
+        <p class="start-timing"><img src="https://www.roadtocode.org/_next/static/media/calendar.0f0b65fe.png" class="imgs"/><b>Starting from 4th June 2024</b></p>
+        <p class="start-timing"><img src="https://www.roadtocode.org/_next/static/media/watch.b9eea499.png" class="imgs"/> 6:00 PM - 7:00 PM</p>
+        <hr />
+        <div>
+        <p class="start-timing"><img src="https://avatars.githubusercontent.com/u/41753685?v=4" class="teacher-img" />Suraj Shende<br /> Instructor
+        <img src="https://www.roadtocode.org/_next/static/media/review.bba0b483.png" class="imgs"/> 4.90
+        <img src="https://www.roadtocode.org/_next/static/media/students.a4857556.png" class="imgs" /> 642
+        </p>
+        </div>
+        <hr />
+        <div>
+        <h1 class="price"> ₹ 1999/- </h1>
+        </div>
+        <hr />
+      </div>
+      <div >
+        <button class="btn">Know More</button>
+    </div>
     </div>
 </body>
 </html>
